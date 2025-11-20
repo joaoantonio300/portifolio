@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/jonlindao.png";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
