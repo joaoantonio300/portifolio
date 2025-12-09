@@ -3,31 +3,31 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { ExternalLink, Github } from "lucide-react";
-import project1 from "@/assets/project1.jpg";
-import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/project3.jpg";
+import project1 from "@/assets/ReactGram.png";
+import project2 from "@/assets/ERP.png";
+import project3 from "@/assets/MenuSales.png";
 
 const projects = [
   {
-    title: "Analytics Dashboard",
-    description: "A comprehensive analytics platform with real-time data visualization, interactive charts, and custom reporting features.",
+    title: "ReactGram Mobile",
+    description: "A mobile project for a course to demonstrate an affinity for mobile projects. In this case, a social network was built.",
     image: project1,
-    github: "https://github.com",
+    github: "https://github.com/joaoantonio300/NativeGramFront.git",
     demo: "https://example.com",
   },
   {
-    title: "E-Commerce Platform",
-    description: "Modern e-commerce solution with product management, shopping cart, payment integration, and order tracking.",
+    title: "ERP Project",
+    description: "A complete analytical platform with real-time data visualization, focused on warehouse and inventory movement analysis.",
     image: project2,
-    github: "https://github.com",
+    github: "https://github.com/joaoantonio300/LaravelErp",
     demo: "https://example.com",
   },
   {
-    title: "QA Testing Dashboard",
-    description: "Automated testing management system with test case tracking, bug reporting, and CI/CD integration.",
+    title: "MenuSales Project",
+    description: "Product menu design for restaurants, already finalized for mobile devices in website format, with location tracking, admin/client interfaces all in one project, and user-friendliness.",
     image: project3,
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/joaoantonio300/CardapioVite",
+    demo: " https://cardapio-swart.vercel.app/",
   },
 ];
 
